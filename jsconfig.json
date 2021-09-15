@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"~/*": ["./*"],
+			"@/*": ["./*"],
+			"~~/*": ["./*"],
+			"@@/*": ["./*"]
+		},
+		"types": ["@nuxt/types", "nuxt-i18n", "buefy/types"],
+		"resolveJsonModule": true,
+		"moduleResolution": "node",
+		"strict": true
+	},
+	"exclude": ["node_modules", ".nuxt", "dist"]
+}
